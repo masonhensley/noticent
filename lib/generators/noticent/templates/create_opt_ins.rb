@@ -1,4 +1,4 @@
-class CreateOptIns < ActiveRecord::Migration[5.2]
+class CreateOptIns < ActiveRecord::Migration[6.0]
   def change
     create_table :opt_ins, force: true do |t|
       t.integer :recipient_id, null: false
